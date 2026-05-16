@@ -11,9 +11,9 @@
 
 ## Overview
 
-The Heritage Provenance & Integrity Pipeline is a Blender addon that computes SHA-256 cryptographic hashes of digital heritage files — including 3D models, archival drawings, and photogrammetric outputs — and generates structured provenance logs in JSON format.
+The Heritage Provenance & Integrity Pipeline is a Blender addon that computes SHA-256 cryptographic hashes of digital heritage files including 3D models, archival drawings, and photogrammetric outputs and generates structured provenance logs in JSON format.
 
-The system is designed to address a methodological gap in digital heritage practice: the absence of formal mechanisms for verifying the integrity and authenticity of 3D reconstruction files over time. Any modification to a certified file — however minimal — produces a completely different hash, making alterations immediately and irrefutably detectable.
+The system is designed to address a methodological gap in digital heritage practice: the absence of formal mechanisms for verifying the integrity and authenticity of 3D reconstruction files over time. Any modification to a certified file, however minimal, produces a completely different hash, making alterations immediately and irrefutably detectable.
 
 This addon is the first module of a broader research pipeline under development, focused on the computational formalisation of 2D-to-3D reconstruction in historical nautical heritage.
 
@@ -21,7 +21,7 @@ This addon is the first module of a broader research pipeline under development,
 
 ## Motivation
 
-Digital models of historical vessels and maritime objects represent unique and irreproducible research data. Their integrity, availability, and protection against unauthorised modification are not abstract concerns — they are conditions for archaeological knowledge to survive in the long term.
+Digital models of historical vessels and maritime objects represent unique and irreproducible research data. Their integrity, availability, and protection against unauthorised modification are not abstract concerns, they are conditions for archaeological knowledge to survive in the long term.
 
 Current practice in digital heritage reconstruction rarely includes formal integrity verification. Decisions made during 3D modelling are often undocumented, alternative hypotheses are not systematically recorded, and exported files are not cryptographically anchored at the time of creation. This addon proposes a lightweight, practical solution to this problem, implemented directly within the standard 3D modelling environment.
 
